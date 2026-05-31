@@ -1,3 +1,5 @@
+//RF13 – Criar classe base e classe fi lha
+
 class ItemTarefa {
   int id;
   String titulo;

@@ -1,3 +1,5 @@
+//RF01 – Transformar mapas em objetos
+
 import 'ItemTarefa.dart';
 
 class Tarefa extends ItemTarefa {
@@ -24,6 +26,8 @@ class Tarefa extends ItemTarefa {
   }
 }
 
+
+//RF14 – Aplicar encapsulamento
 class RelatorioTarefas {
   final List<Tarefa> _tarefas;
 

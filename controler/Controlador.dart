@@ -1,5 +1,6 @@
 import 'classes/Tarefa.dart';
 
+//RF04 – Converter valor monetário para número
 double converteValor(dynamic v) => v == null
     ? 0.0
     : (double.tryParse(
@@ -10,8 +11,13 @@ double converteValor(dynamic v) => v == null
                 .replaceAll(',', '.'),
           ) ??
           0.0);
+          
+//RF05 – Converter horas para número inteiro
 int converteHoras(dynamic h) =>
     h == null ? 0 : (int.tryParse(h.toString()) ?? 0);
+
+//RF02 – Tratar campos nulos
+//RF03 – Remover espaços desnecessários
 
 Tarefa converteMapParaTarefa(Map<String, dynamic> item) => Tarefa(
   id: item['id'] ?? 0,
