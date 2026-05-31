@@ -1,6 +1,5 @@
+import 'view/relatorio.dart';
 
-
-void main(){
-  
-
+void main() {
+  relatorio();
 }

@@ -1,6 +1,6 @@
-import 'ItemTrabalho.dart';
+import 'ItemTarefa.dart';
 
-class Tarefa extends ItemTrabalho {
+class Tarefa extends ItemTarefa {
   String responsavel;
   String status;
   String prioridade;
